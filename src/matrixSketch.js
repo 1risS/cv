@@ -5,7 +5,7 @@ export default function sketch(p) {
   // Array Lists
   // LoopBackwards
   let words = [];
-  let wordFall = setInterval(makeWord, 100);
+  setInterval(makeWord, 100);
   let letters = ["I", "R", "I", "S"]; //this is the letters array; currently all in capitals. if we make them lowercase, the one line of code below will make them disappear without caps lock
 
   p.setup = function () {
