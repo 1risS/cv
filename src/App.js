@@ -9,6 +9,7 @@ import {
   faInstagram,
   faYoutube,
   faLinkedin,
+  faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 
 // import fauno01 from "../public/fauno/fauno4.jpg";
@@ -41,6 +42,36 @@ const NOBOUNDS_IMAGES = [
   { id: "4", source: "/no-bounds/no-bounds_03.jpg" },
   { id: "5", source: "/no-bounds/no-bounds_04.jpg" },
   { id: "6", source: "/no-bounds/no-bounds_05.jpg" },
+];
+
+const DOMOLLENO_IMAGES = [
+  { id: "1", source: "/planetBogota/domolleno_00.jpg" },
+  { id: "2", source: "/planetBogota/domolleno_01.jpg" },
+  { id: "3", source: "/planetBogota/domolleno_02.jpg" },
+  { id: "4", source: "/planetBogota/domolleno_03.jpg" },
+  { id: "5", source: "/planetBogota/domolleno_04.jpg" },
+];
+
+const PLANETBA_IMAGES = [
+  { id: "1", source: "/planetBA/planetba_00.jpg" },
+  { id: "2", source: "/planetBA/planetba_01.jpg" },
+  { id: "3", source: "/planetBA/planetba_02.jpg" },
+  { id: "4", source: "/planetBA/planetba_03.jpg" },
+];
+
+const JACK_IMAGES = [
+  { id: "1", source: "/jack/jack_00.jpg" },
+  { id: "2", source: "/jack/jack_01.jpg" },
+];
+
+const LIPM_IMAGES = [
+  { id: "1", source: "/lipm/lipm_00.jpg" },
+  { id: "2", source: "/lipm/lipm_01.jpg" },
+];
+
+const MEMORY_IMAGES = [
+  { id: "1", source: "/memory/memory_00.jpg" },
+  { id: "2", source: "/memory/memory_01.jpg" },
 ];
 
 function App() {
@@ -283,7 +314,7 @@ function App() {
                   <br></br>
                 </p>
                 <Gallery
-                  images={FAUNO_IMAGES}
+                  images={DOMOLLENO_IMAGES}
                   index={1}
                   onChange={onGalleryChange}
                 />
@@ -299,7 +330,7 @@ function App() {
                   <br></br>
                 </p>
                 <Gallery
-                  images={FAUNO_IMAGES}
+                  images={PLANETBA_IMAGES}
                   index={1}
                   onChange={onGalleryChange}
                 />
@@ -319,7 +350,7 @@ function App() {
                   <br></br>
                 </p>
                 <Gallery
-                  images={FAUNO_IMAGES}
+                  images={JACK_IMAGES}
                   index={1}
                   onChange={onGalleryChange}
                 />
@@ -335,7 +366,7 @@ function App() {
                   <br></br>
                 </p>
                 <Gallery
-                  images={FAUNO_IMAGES}
+                  images={LIPM_IMAGES}
                   index={1}
                   onChange={onGalleryChange}
                 />
@@ -348,7 +379,7 @@ function App() {
                   Binaural and located sound design for{" "}
                   <a
                     href="https://hubs.mozilla.com/9KV68Ve/spacex/"
-                    targer="blank"
+                    target="blank"
                   >
                     VR space
                   </a>{" "}
@@ -365,7 +396,7 @@ function App() {
                   <br></br>
                 </p>
                 <Gallery
-                  images={FAUNO_IMAGES}
+                  images={MEMORY_IMAGES}
                   index={1}
                   onChange={onGalleryChange}
                 />
@@ -412,6 +443,16 @@ function App() {
                 </a>
                 . Visuals are audioreactive, listening to the .mp3 directly
                 through Web Audio.
+              </div>
+            </div>
+          </section>
+          <section id="contact">
+            <div className="contactContainer">
+              <div className="title">Contact</div>
+
+              <div className="mailCont">
+                <FontAwesomeIcon icon={faGoogle} style={{ color: "#61dafb" }} />
+                <p className="desc2">iris.r.saladino@gmail.com</p>
               </div>
             </div>
           </section>
