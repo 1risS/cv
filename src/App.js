@@ -203,22 +203,34 @@ function App() {
                 href="https://mutek.org/es/noticias/nano-mutek-ar-2019/"
                 target="blank"
               >
-                Amplify Nano Mutek 2019,BA
+                Amplify Nano Mutek 2019, BA
               </a>
               ,{" "}
               <a
                 href="https://www.idartes.gov.co/es/lineas-estrategicas/arte-ciencia-tecnologia"
                 target="blank"
               >
-                Festival Domo Lleno,CO
+                Festival Domo Lleno, CO
               </a>
               ,{" "}
               <a href="https://networkmusicfestival.org/" target="blank">
-                Network Music Festival,DE
+                Network Music Festival, DE
               </a>
               ,
               <a href="http://noboundsfestival.co.uk/" target="blank">
-                No Bounds Festival,UK
+                No Bounds Festival, UK
+              </a>
+              ,
+              <a href="https://piksel.no/" target="blank">
+                Piksel, NO
+              </a>
+              ,
+              <a href="https://www.theoverkill.nl/" target="blank">
+                OverKill, NL
+              </a>
+              ,
+              <a href="https://spamarts.com/" target="blank">
+                SmapArts, BA
               </a>
               .
             </p>
@@ -283,9 +295,16 @@ function App() {
                   NO BOUNDS FESTIVAL
                   <br></br>
                   <br></br>
-                  Remote live coding performance with web-based collaborative
-                  editor for octophonic sound system in the Cultural Industries
-                  Quarter of Sheffield, UK (binaural stream) ft.{" "}
+                  <a
+                    href="https://www.youtube.com/watch?v=47BqQKsbSbg"
+                    target="blank"
+                  >
+                    {" "}
+                    Remote live coding performance with web-based collaborative
+                    editor for octophonic sound system
+                  </a>{" "}
+                  in the Cultural Industries Quarter of Sheffield, UK (binaural
+                  stream) ft.{" "}
                   <a href="https://slab.org/" target="blank">
                     Alex McLean
                   </a>{" "}
