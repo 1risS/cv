@@ -49,7 +49,7 @@ const DOMOLLENO_IMAGES = [
   { id: "2", source: "/planetBogota/domolleno_01.jpg" },
   { id: "3", source: "/planetBogota/domolleno_02.jpg" },
   { id: "4", source: "/planetBogota/domolleno_03.jpg" },
-  { id: "5", source: "/planetBogota/domolleno_04.jpg" },
+  { id: "5", source: "/planetBogota/domolleno_04.png" },
 ];
 
 const PLANETBA_IMAGES = [
@@ -324,7 +324,7 @@ function App() {
 
               <div className="cell">
                 <p className="desc">
-                  Planetario de Bogotá
+                  PLANETARIO DE BOGOTÁ
                   <br></br>
                   <br></br>
                   Live coding set in 5.1 sound system for fulldome livecoding
@@ -341,7 +341,7 @@ function App() {
 
               <div className="cell">
                 <p className="desc">
-                  Planetario de Buenos Aires
+                  PLANETARIO DE BUENOS AIRES
                   <br></br>
                   <br></br>
                   Live coding set for fulldome livecoding performance.
@@ -471,7 +471,7 @@ function App() {
 
               <div className="mailCont">
                 <FontAwesomeIcon icon={faGoogle} style={{ color: "#61dafb" }} />
-                <p className="desc2">iris.r.saladino@gmail.com</p>
+                <p className="desc3">iris.r.saladino@gmail.com</p>
               </div>
             </div>
           </section>
