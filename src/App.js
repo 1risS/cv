@@ -255,14 +255,14 @@ function App() {
                 >
                   Gonzalo Solimano
                 </a>
-                ,
+                ,{" "}
                 <a
                   href="https://www.instagram.com/amandachangr/?hl=en"
                   target="blank"
                 >
                   Amanda Chang
                 </a>
-                ,
+                ,{" "}
                 <a href="https://carlcraig.net/about/" target="blank">
                   Carl Craig
                 </a>
@@ -355,7 +355,7 @@ function App() {
                   <a href="https://www.jackadlermckean.eu/">
                     Jack Adler-McKean
                   </a>{" "}
-                  for quadraphonic sound system .<br></br>
+                  for quadraphonic sound system.<br></br>
                   <br></br>
                 </p>
                 <Gallery
