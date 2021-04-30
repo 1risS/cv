@@ -108,6 +108,7 @@ canvas {
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
+  width: 33.3%;
 }
 
 .cell {
@@ -118,11 +119,18 @@ canvas {
   background: black;
   overflow: hidden;
   border-radius: 15px;
+  height: 240px;
+  padding: 0 !important;
 }
 
-.thumnbail {
+.thumbnail {
   object-fit: cover;
-  opacity: 0.4;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.rowContainer .thumbnail {
+  width: 100%;
 }
 
 .title {
@@ -217,7 +225,107 @@ a {
   align-self: center;
 }
 
-.thumnbail {
+.thumbnail {
   padding: 2rem 0rem 0rem 0rem;
   margin: 0;
+}
+
+@media screen and (max-width: 575px) {
+  #navBar {
+    width: 100vw;
+  }
+  #navBar .navBarContent {
+    display: none;
+  }
+  .bannerContainer {
+    padding-bottom: 2rem;
+    display: flexbox;
+    justify-content: center;
+  }
+  .nameCont {
+    padding-top: 0rem;
+  }
+  .name {
+    font-size: 3rem;
+    text-align: left;
+  }
+  .sub {
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 1rem;
+  }
+  .Container {
+    margin: 0rem;
+  }
+  #about {
+    width: 100%;
+    margin: 4rem 0rem 4rem 0rem;
+  }
+  #about .title {
+    text-align: left;
+    margin-left: 0;
+  }
+  #technician {
+    width: 100%;
+    margin: 4rem 0rem 4rem 0rem;
+  }
+  #technician .title {
+    text-align: left;
+    margin-left: 0;
+  }
+  #technician .galleryContainer {
+    padding: 0;
+    object-fit: cover;
+    height: 245px;
+  }
+  #technician .thumbnail {
+    object-fit: cover !important;
+  }
+  #soundspace {
+    width: 100%;
+    margin: 4rem 0rem 4rem 0rem;
+  }
+  #soundspace .cell {
+    margin: 0;
+  }
+  #soundspace .title {
+    text-align: left;
+    margin-left: 0;
+    font-size: 2em;
+  }
+  #soundspace .galleryContainer {
+    padding: 0;
+    object-fit: cover;
+    height: 245px;
+  }
+  #soundspace .thumbnail {
+    object-fit: cover !important;
+  }
+  .title {
+    margin: 2rem;
+  }
+  .desc1 {
+    margin: 0% !important;
+  }
+  .rowContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 0;
+    margin: 0 !important;
+    width: 100%;
+  }
+  #other .title {
+    text-align: left;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  #other .desc2 {
+    margin: 3rem 0rem 0rem 0rem;
+  }
+  .desc {
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  .galleryContainer {
+    margin: 4rem 0rem 4rem 0rem;
+  }
 }

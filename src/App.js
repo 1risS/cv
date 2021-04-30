@@ -45,7 +45,7 @@ const NOBOUNDS_IMAGES = [
 ];
 
 const DOMOLLENO_IMAGES = [
-  { id: "1", source: "/planetBogota/domolleno_00.jpg" },
+  // { id: "1", source: "/planetBogota/domolleno_00.jpg" },
   { id: "2", source: "/planetBogota/domolleno_01.jpg" },
   { id: "3", source: "/planetBogota/domolleno_02.jpg" },
   { id: "4", source: "/planetBogota/domolleno_03.jpg" },
@@ -121,8 +121,8 @@ function App() {
 
             <p className="desc1">
               Buenos Aires based creative coder, sound oriented. Studied Music
-              Composition and Electronic Arts in UNTreF. Member of CLiC
-              (Colectivo de Live Coders). Loves to live code music with{" "}
+              Composition and Electronic Arts in UNTreF. Loves to live code
+              music with{" "}
               <a href="https://tidalcycles.org" target="blank">
                 TidalCycles
               </a>{" "}
@@ -132,19 +132,7 @@ function App() {
               </a>{" "}
               . Wants to understand creative programming languages and
               softwares. Venerates the existence of internet. Needs creative
-              environments for social interaction. Currently experimenting with
-              3D sound with{" "}
-              <a href="https://supercollider.github.io/" target="blank">
-                SuperCollider
-              </a>{" "}
-              and{" "}
-              <a href="https://en.wikipedia.org/wiki/Ambisonics">Ambisonics</a>,
-              3D modeling with{" "}
-              <a href="https://www.blender.org/" target="blank">
-                Blender
-              </a>{" "}
-              and 3D interaction with <a href="https://unity.com/">Unity</a> and{" "}
-              <a href="https://threejs.org/">three.js</a>.<br></br>
+              environments for social interaction.<br></br>
               <br></br>
               Performed in:{" "}
               <a
@@ -235,11 +223,14 @@ function App() {
               .
             </p>
           </section>
+          {/* <p className="title">Festivals</p>
+          <section id="fests"></section> */}
 
           <section id="technician">
             <p className="title">Technician</p>
             <p className="desc">
-              LA SIESTA DEL FAUNO ESTUDIO-LABORATORIO<br></br>
+              <b>LA SIESTA DEL FAUNO ESTUDIO-LABORATORIO</b>
+              <br></br>
               <br></br>
               Recording, editing and mixing assistant. <br></br>Analog synthesis
               designer.
@@ -287,12 +278,12 @@ function App() {
 
           <section id="soundspace">
             <p className="title">
-              Sound space <br></br>researcher/artist
+              Sound space <br></br> artist
             </p>
             <div className="rowContainer">
               <div className="cell">
                 <p className="desc">
-                  NO BOUNDS FESTIVAL
+                  <b>NO BOUNDS FESTIVAL</b>
                   <br></br>
                   <br></br>
                   <a
@@ -303,8 +294,7 @@ function App() {
                     Remote live coding performance with web-based collaborative
                     editor for octophonic sound system
                   </a>{" "}
-                  in the Cultural Industries Quarter of Sheffield, UK (binaural
-                  stream) ft.{" "}
+                  in Hope Works, UK (binaural stream) ft.{" "}
                   <a href="https://slab.org/" target="blank">
                     Alex McLean
                   </a>{" "}
@@ -324,7 +314,7 @@ function App() {
 
               <div className="cell">
                 <p className="desc">
-                  PLANETARIO DE BOGOTÁ
+                  <b>PLANETARIO DE BOGOTÁ</b>
                   <br></br>
                   <br></br>
                   Live coding set in 5.1 sound system for fulldome livecoding
@@ -341,7 +331,7 @@ function App() {
 
               <div className="cell">
                 <p className="desc">
-                  PLANETARIO DE BUENOS AIRES
+                  <b>PLANETARIO DE BUENOS AIRES</b>
                   <br></br>
                   <br></br>
                   Live coding set for fulldome livecoding performance.
@@ -358,7 +348,7 @@ function App() {
             <div className="rowContainer">
               <div className="cell">
                 <p className="desc">
-                  CENTRO CULTURAL GENERAL SAN MARTIN
+                  <b>CENTRO CULTURAL GENERAL SAN MARTIN</b>
                   <br></br>
                   <br></br>
                   Live coded processes over <br></br>
@@ -377,7 +367,7 @@ function App() {
 
               <div className="cell">
                 <p className="desc">
-                  L.I.P.M. (CENTRO CULTURAL RECOLETA)
+                  <b>L.I.P.M. (CENTRO CULTURAL RECOLETA)</b>
                   <br></br>
                   <br></br>
                   Live coding experimental set for quadraphonic sound system.
@@ -392,7 +382,7 @@ function App() {
               </div>
               <div className="cell">
                 <p className="desc">
-                  MEMORY CANNOT BE READ
+                  <b>MEMORY CANNOT BE READ</b>
                   <br></br>
                   <br></br>
                   Binaural and located sound design for{" "}
@@ -428,7 +418,7 @@ function App() {
               <div className="title">Other projects</div>
 
               <div className="desc2">
-                BLACK CODED MIDI <br></br>
+                <b>BLACK CODED MIDI</b> <br></br>
                 <br></br>
                 <a href="https://blackcodedmidi.github.io/" target="blank">
                   Black Coded MIDI
@@ -443,7 +433,7 @@ function App() {
                 by hybridizing it with live coding languages.
               </div>
               <div className="desc2">
-                XPLORE <br></br>
+                <b>XPLORE</b> <br></br>
                 <br></br>
                 <a
                   href="https://colectivo-de-livecoders.gitlab.io/xplore/"

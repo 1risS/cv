@@ -27,7 +27,10 @@ export default function sketch(p) {
   };
 
   p.windowResized = function windowResized() {
-    p.resizeCanvas(p.windowWidth, p.windowHeight);
+    p.resizeCanvas(
+      p.windowWidth / window.devicePixelRatio,
+      p.windowHeight / window.devicePixelRatio
+    );
   };
 
   function makeWord() {
