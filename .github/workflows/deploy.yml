@@ -13,6 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
     - run: yarn install
+    - run: yarn build
     - name: Deploy to GitHub Pages
       # You may pin to the exact commit or the version.
       # uses: JamesIves/github-pages-deploy-action@164583b9e44b4fc5910e78feb607ea7c98d3c7b9
